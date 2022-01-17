@@ -1,0 +1,18 @@
+{
+    "name": "Portal",
+    "alias": "portal",
+    "description": "",
+    "keywords": [],
+    "priority": 1,
+    "providers": [
+        "Modules\\Portal\\Providers\\PortalServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "helpers.php"
+    ],
+    "requires": [],
+    "abilities": [
+        "Modules\\Portal\\Http\\Controllers\\Backend\\OfferController"
+    ]
+}

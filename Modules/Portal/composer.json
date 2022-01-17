@@ -1,0 +1,23 @@
+{
+    "name": "owncms/portal",
+    "description": "",
+    "authors": [
+        {
+            "name": "Damian Bialkowski",
+            "email": "damianbialkowski.info@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Portal\\": ""
+        }
+    }
+}
